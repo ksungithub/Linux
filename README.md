@@ -99,3 +99,26 @@ hostname: Displays hostname
 wget: Downloads file from terminal
 
 history: Command history
+
+chmod: Set user permissions
+
+    chmod 755 (User has read/write/execute, everyone else Read/Execute)
+
+    chmod 700 (User has Read/Execute, no one else)
+
+./*Script name*: Using a script
+
+    Format for a simple script:
+    
+    1) #!/bin/bash(called the shebang. given tothe shell to indicate what program is used to interpret the script)
+
+    2) # *comment*
+
+    3)
+
+    4)echo "Hello World!"
+
+echo $PATH: Shows the list of directories in *your* path
+
+export PATH=$PATH:directory(add directories to your path)
+
