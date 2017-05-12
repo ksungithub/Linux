@@ -98,4 +98,4 @@ hostname: Displays hostname
 
 wget: Downloads file from terminal
 
-History: Command history
+history: Command history
