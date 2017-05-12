@@ -8,11 +8,17 @@ Flavors of Linux are called: Distributions (Distros)
 GUI: Graphical User Interface
 CLI: Command Line Interface
 
+Up-arrow/Down-arrow: Previous or last command entered
+
+Tab: Autocompletes
+
 List of Commands:
 
 pwd: Print working directory (Tells you where you are)
 
 ls: List (Shows contents of current directory)
+
+    ls -la(or -ll): Who created the file, write access
 
 clear: Clear (redundant)
 
@@ -28,7 +34,13 @@ cd: Change Directory (Used to navigate between directories/folders)
 
 cp: Copy (Copies files)
 
-    Example: cp README.md newreadme.md
+    Example: cp README.md newreadme.md(New file new name, keeps old file)
+
+mv: Moves files
+    
+    Example: mv README.md *folder*
+
+    Example: mv README.md READMEMORE.md (Renames file)
 
 rm: Remove (Deletes)
 
@@ -46,3 +58,44 @@ man: MANUAL *SUPER USEFUL*
 
 which: Searches for word in (echo $PATH)
 
+su(sudo):Super User(To enter as root or administrator)
+
+    Log in as su=changes user to root
+
+    $ -> #
+
+    exit(switches back to regular user)
+
+date: Current date and time
+
+cal: Current month calendar
+
+    cal 2015 (shows calendar for entire year)
+
+uptime: Current uptime
+
+w: Who is online/logged in right now
+
+whoami: Who you are logged in as
+
+uname -a: Kernal information (What version linux you're using)
+
+free: Memory/Swap usage
+
+touch: Creates new file
+
+top: Displays processes in task manager
+
+    htop:(fancier top)
+
+    install htop with: yum install htop
+
+ifconfig: Shows ip address (same as ipconfig)
+
+    ifconfig -s: (short version)
+
+hostname: Displays hostname
+
+wget: Downloads file from terminal
+
+History: Command history
