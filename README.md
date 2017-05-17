@@ -52,6 +52,8 @@ rmdir: Deletes *empty* folder
 
 rm -r *folder*: deletes non-empty folders
 
+whatis: Tells you what a command does
+
 man: MANUAL *SUPER USEFUL*
 
     Example: man cd
@@ -122,3 +124,6 @@ echo $PATH: Shows the list of directories in *your* path
 
 export PATH=$PATH:directory(add directories to your path)
 
+cat: prints the contents of a file
+
+grep: Globally search a regular expression and print
