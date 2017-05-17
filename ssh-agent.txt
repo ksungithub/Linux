@@ -1,0 +1,17 @@
+$eval $(ssh-agent -s)
+
+Agent pid xxxxxxx
+
+$ssh-add -l
+
+the agent has no identities(if it's not linked)
+
+$ssh-add .ssh/id_rsa
+
+enter passphrase
+
+identity added: .ssh/id_rsa (.ssh/id_rsa)
+
+$ssh-add -l
+
+xxxx xx:xx:xx:xx

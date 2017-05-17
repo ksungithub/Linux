@@ -127,3 +127,9 @@ export PATH=$PATH:directory(add directories to your path)
 cat: prints the contents of a file
 
 grep: Globally search a regular expression and print
+
+rpm -qa: Lists packages (Query, all)
+
+rpm -ql: Lists packages (Query, list)
+
+rpm |(pipe) wc(word count) -l(lines): counts how many lines of packages there are
